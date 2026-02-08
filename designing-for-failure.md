@@ -225,4 +225,4 @@ This exercise illustrates how QA and reliability thinking can be applied to ambi
 ---
 
 **License:** CC BY 4.0  
-**Repository:** [GitHub link if created]
+**Repository:** https://github.com/leenathomas01/designing-for-failure-case-study 
