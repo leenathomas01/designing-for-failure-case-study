@@ -113,7 +113,7 @@ The value lies in the **method of reasoning**, not the fictional device.
 
 * Feature design or UI optimization
 * Performance tuning
-* Hypothesis testing (see PACI)
+* Hypothesis testing (see **[PACI](https://github.com/leenathomas01/phase-aligned-inquiry)**)
 * Studying cognitive adaptation over time (see **[BFA](https://github.com/leenathomas01/Bounded-Fictional-Analysis)**)
 
 ---
