@@ -14,7 +14,7 @@ This case study documents a thought experiment in reasoning through communicatio
 
 **Although the domain was space-weather communication, the structural primitives extracted here apply to AI systems, financial systems, infrastructure recovery, and any architecture operating under adversarial or degraded conditions.**
 
-The exercise produced a complete specification spanning protocol design, failure mode analysis, trust architecture, and governance decisions — demonstrating QA-driven systems thinking from first principles to implementation constraints.
+The exercise produced a complete specification spanning protocol design, failure mode analysis, trust architecture, and governance decisions - demonstrating QA-driven systems thinking from first principles to implementation constraints.
 
 ---
 
@@ -50,7 +50,7 @@ Rather than improving existing systems, we reasoned through a parallel architect
 
 ### Layer 3: Terrestrial Mesh
 - **Medium:** Device-to-device relay using Software Defined Radio (SDR)
-- **Protocol:** Delay-Tolerant Networking (DTN) — "data muling" where packets physically travel via moving nodes
+- **Protocol:** Delay-Tolerant Networking (DTN) - "data muling" where packets physically travel via moving nodes
 - **Key feature:** Works without any infrastructure (cellular towers, satellites, or ionosphere)
 
 ---
@@ -233,7 +233,7 @@ This specification was produced through collaborative inquiry across multiple AI
 - Cross-domain reasoning (physics → protocol → UX → manufacturing → ethics)
 - Adversarial stress-testing of proposed solutions
 
-The value is not the device concept itself, but the **reasoning process** — demonstrating how QA and reliability thinking can drive architectural decisions from first principles through to governance choices.
+The value is not the device concept itself, but the **reasoning process** - demonstrating how QA and reliability thinking can drive architectural decisions from first principles through to governance choices.
 
 This exercise illustrates how QA and reliability thinking can be applied to ambiguous problems by progressively identifying hidden failure surfaces and designing systems that assume failure as the default state.
 
