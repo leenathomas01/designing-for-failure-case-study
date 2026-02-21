@@ -65,7 +65,7 @@ We designed a **Finite State Machine (FSM)** to reason through how a system woul
 | **GREEN** | Normal solar activity                      | Standard TCP/IP, full bandwidth                                                                                         |
 | **YELLOW** | Pre-flare warning (L1 satellite alert)     | Pre-cache critical data, disconnect from grid charging                                                                  |
 | **RED**   | Ionospheric collapse detected              | Kill HF radio, switch to mesh/ASL, DTN mode                                                                             |
-| **ORANGE** | Apparent calm after storm                  | **ORANGE** — Recovery Validation (Distributed Paranoia enforced via multi-signal quorum) — requires sustained 6-hour stability across multiple independent signals before returning to GREEN   |
+| **ORANGE** | Apparent calm after storm                  | **ORANGE** - Recovery Validation (Distributed Paranoia enforced via multi-signal quorum) |
 | **BLACK** | Hardware survival mode                     | Fuse-antenna blown, minimal power, waiting for manual reset                                                             |
 
 ### Key Innovation: Hysteresis with Multi-Signal Voting (MSV)
