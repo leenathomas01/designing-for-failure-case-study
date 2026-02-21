@@ -62,4 +62,3 @@ def evaluate_recovery():
 
 ---
 
-**Diagram:** `/diagrams/distributed-paranoia.png`
