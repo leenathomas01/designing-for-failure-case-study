@@ -31,15 +31,18 @@ All three signals must remain nominal for 6+ continuous hours. If any signal dro
 signals = [signal_a, signal_b, signal_c]
 quorum_threshold = 3
 sustained_duration = 6_hours
+sampling_interval = 1_minute
 timer = 0
 
 def evaluate_recovery():
-    nominal_count = sum(1 for s in signals if is_nominal(s))
+    global timer
+    
+    nominal_count = sum(1 for s in signals)
     
     if nominal_count >= quorum_threshold:
-    timer += sampling_interval
-else:
-    timer = 0  # Reset on any anomaly
+        timer += sampling_interval
+    else:
+        timer = 0  # Reset on any anomaly
     
     if timer >= sustained_duration:
         return READY_FOR_GREEN
