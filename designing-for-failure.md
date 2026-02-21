@@ -1,8 +1,7 @@
-# Designing for Failure: A QA-Led Systems Thought Experiment Under Extreme Environmental Constraints
+# Designing for Failure: Case Study in Catastrophic-State Architecture
 
-**Methodology:** Collaborative AI-assisted systems design  
-**Date:** February 2026  
-**Domain:** Space weather communication (as proxy for hostile-environment systems design)
+**Domain Context:** Space-weather communication (used as forcing function)
+**Date:** 21 February 2026
 
 ---
 
@@ -12,7 +11,7 @@ Modern communication infrastructure relies on the ionosphere for HF radio propag
 
 This case study documents a thought experiment in reasoning through communication system design under extreme environmental failure. Using solar flares as the constraint, we explored how to architect a system when the primary propagation medium becomes hostile.
 
-**Although the domain was space-weather communication, the reasoning patterns mirror those required in AI safety and reliability engineering: designing systems that must behave correctly when inputs, infrastructure, and users are all adversarial or degraded.**
+**Although the domain was space-weather communication, the structural primitives extracted here apply to AI systems, financial systems, infrastructure recovery, and any architecture operating under adversarial or degraded conditions.**
 
 The exercise produced a complete specification spanning protocol design, failure mode analysis, trust architecture, and governance decisions — demonstrating QA-driven systems thinking from first principles to implementation constraints.
 
@@ -66,7 +65,7 @@ We designed a **Finite State Machine (FSM)** to reason through how a system woul
 | **GREEN** | Normal solar activity                      | Standard TCP/IP, full bandwidth                                                                                         |
 | **YELLOW** | Pre-flare warning (L1 satellite alert)     | Pre-cache critical data, disconnect from grid charging                                                                  |
 | **RED**   | Ionospheric collapse detected              | Kill HF radio, switch to mesh/ASL, DTN mode                                                                             |
-| **ORANGE** | Apparent calm after storm                  | **Paranoia Mode** — requires sustained 6-hour stability across multiple independent signals before returning to GREEN   |
+| **ORANGE** | Apparent calm after storm                  | **ORANGE** — Recovery Validation (Distributed Paranoia enforced via multi-signal quorum) — requires sustained 6-hour stability across multiple independent signals before returning to GREEN   |
 | **BLACK** | Hardware survival mode                     | Fuse-antenna blown, minimal power, waiting for manual reset                                                             |
 
 ### Key Innovation: Hysteresis with Multi-Signal Voting (MSV)
