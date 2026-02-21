@@ -1,6 +1,7 @@
 # Designing for Failure: Case Study in Catastrophic-State Architecture
 
 **Domain Context:** Space-weather communication (used as forcing function)
+
 **Date:** 21 February 2026
 
 ---
