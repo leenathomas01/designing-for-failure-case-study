@@ -69,4 +69,3 @@ def evaluate_state():
 
 ---
 
-**Diagram:** `/diagrams/asymmetric-transitions.png`
